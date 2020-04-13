@@ -1,0 +1,4 @@
+2020-03-27 21:48:44,135 - BasePage - INFO - Open page with url:https://www.baidu.com
+2020-03-27 21:48:44,135 - BasePage - ERROR - Cannot send content£º¡°pytest¡± on element with locator£ºkw£¬locator_type£ºid
+2020-03-27 21:48:44,150 - BasePage - INFO - Element Found with locator£ºsu£¬locator_type£ºid
+2020-03-27 21:48:44,150 - BasePage - ERROR - Cannot click on the element with locator£ºsu£¬locator_type£ºid

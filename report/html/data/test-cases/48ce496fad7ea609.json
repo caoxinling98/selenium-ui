@@ -1,0 +1,137 @@
+{
+  "uid" : "48ce496fad7ea609",
+  "name" : "test_baidu_search",
+  "fullName" : "testcases.test_search.TestBaiduSearch#test_baidu_search",
+  "historyId" : "f885588e8458c1091c904c7e37ca333e",
+  "time" : {
+    "start" : 1585459409093,
+    "stop" : 1585459419486,
+    "duration" : 10393
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1585459392978,
+      "stop" : 1585459398305,
+      "duration" : 5327
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1585459409093,
+      "stop" : 1585459409093,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "close",
+    "time" : {
+      "start" : 1585459392978,
+      "stop" : 1585459392978,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6bcee9d104eba4ba",
+      "name" : "log",
+      "source" : "6bcee9d104eba4ba.txt",
+      "type" : "text/plain",
+      "size" : 419
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "close::0",
+    "time" : {
+      "start" : 1585459419502,
+      "stop" : 1585459421640,
+      "duration" : 2138
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户功能"
+  }, {
+    "name" : "story",
+    "value" : "百度搜索"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_search"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBaiduSearch"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-3BKS4R6"
+  }, {
+    "name" : "thread",
+    "value" : "9828-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "48ce496fad7ea609.json",
+  "parameterValues" : [ ]
+}

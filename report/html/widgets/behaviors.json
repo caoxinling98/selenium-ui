@@ -1,0 +1,15 @@
+{
+  "total" : 15,
+  "items" : [ {
+    "uid" : "32c02cc330f3250085cd57cce54fa685",
+    "name" : "用户功能",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

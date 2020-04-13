@@ -1,0 +1,109 @@
+{
+  "uid" : "684fff4dae771b23",
+  "name" : "test_two",
+  "fullName" : "sample.test_demo1.TestClass#test_two",
+  "historyId" : "a6af45fbd9f81e9bf9120f7c9b50ec47",
+  "time" : {
+    "start" : 1585459398305,
+    "stop" : 1585459398305,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False\n +  where False = hasattr('check', 'check')",
+  "statusTrace" : "self = <sample.test_demo1.TestClass object at 0x000001AFBA165128>\n\n    @pytest.mark.a\n    def test_two(self):\n        x = 'check'\n>       assert hasattr(x,'check')\nE       AssertionError: assert False\nE        +  where False = hasattr('check', 'check')\n\nsample\\test_demo1.py:10: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1585459392978,
+      "stop" : 1585459398305,
+      "duration" : 5327
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "close",
+    "time" : {
+      "start" : 1585459392978,
+      "stop" : 1585459392978,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "close::0",
+    "time" : {
+      "start" : 1585459419502,
+      "stop" : 1585459421640,
+      "duration" : 2138
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "a"
+  }, {
+    "name" : "parentSuite",
+    "value" : "sample"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo1"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClass"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-3BKS4R6"
+  }, {
+    "name" : "thread",
+    "value" : "9828-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "sample.test_demo1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "a" ]
+  },
+  "source" : "684fff4dae771b23.json",
+  "parameterValues" : [ ]
+}

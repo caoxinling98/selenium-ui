@@ -1,0 +1,109 @@
+{
+  "uid" : "e3cf77d5940380d7",
+  "name" : "test_a",
+  "fullName" : "sample.test_demo1.TestClass#test_a",
+  "historyId" : "6f708fcb54d78b8cafa40f4b1a15fad4",
+  "time" : {
+    "start" : 1585459398336,
+    "stop" : 1585459398336,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 1 == 2",
+  "statusTrace" : "self = <sample.test_demo1.TestClass object at 0x000001AFBA165748>\n\n    @pytest.mark.b\n    def test_a(self):\n>       assert 1 == 2\nE       assert 1 == 2\n\nsample\\test_demo1.py:14: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1585459392978,
+      "stop" : 1585459398305,
+      "duration" : 5327
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "close",
+    "time" : {
+      "start" : 1585459392978,
+      "stop" : 1585459392978,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "close::0",
+    "time" : {
+      "start" : 1585459419502,
+      "stop" : 1585459421640,
+      "duration" : 2138
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "b"
+  }, {
+    "name" : "parentSuite",
+    "value" : "sample"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo1"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClass"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-3BKS4R6"
+  }, {
+    "name" : "thread",
+    "value" : "9828-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "sample.test_demo1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "b" ]
+  },
+  "source" : "e3cf77d5940380d7.json",
+  "parameterValues" : [ ]
+}

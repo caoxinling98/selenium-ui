@@ -1,0 +1,57 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert False\n +  where False = hasattr('check', 'check')",
+      "children" : [ {
+        "name" : "test_two",
+        "uid" : "684fff4dae771b23",
+        "parentUid" : "e5272e03c54326d17ddd4376c22428d8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1585459398305,
+          "stop" : 1585459398305,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e5272e03c54326d17ddd4376c22428d8"
+    }, {
+      "name" : "AssertionError: assert 1 == 2",
+      "children" : [ {
+        "name" : "test_a",
+        "uid" : "e3cf77d5940380d7",
+        "parentUid" : "d89f5ad50f342bab320c0753c9baac45",
+        "status" : "failed",
+        "time" : {
+          "start" : 1585459398336,
+          "stop" : 1585459398336,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d89f5ad50f342bab320c0753c9baac45"
+    }, {
+      "name" : "AssertionError: assert 4 == 5\n +  where 4 = inc(3)",
+      "children" : [ {
+        "name" : "test_answer",
+        "uid" : "d5c2953bb19c641f",
+        "parentUid" : "1771e873c640f03d453fc668387161d5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1585459398415,
+          "stop" : 1585459398415,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1771e873c640f03d453fc668387161d5"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

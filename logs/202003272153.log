@@ -1,0 +1,5 @@
+2020-03-27 21:53:45,519 - BasePage - INFO - Open page with url:https://www.baidu.com
+2020-03-27 21:53:45,539 - BasePage - INFO - Element Found with locator£ºkw£¬locator_type£ºid
+2020-03-27 21:53:45,647 - BasePage - INFO - send data£º¡°pytest¡±on element with locator£ºkw£¬locator_type£ºid
+2020-03-27 21:53:45,663 - BasePage - INFO - Element Found with locator£ºsu£¬locator_type£ºid
+2020-03-27 21:53:45,729 - BasePage - INFO - Clicked on element with locator£ºsu£¬locator_type£ºid
